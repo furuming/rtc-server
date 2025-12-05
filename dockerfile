@@ -1,8 +1,7 @@
-FROM python:3.11
+FROM python:3.14
 ENV PYTHONUNBUFFERED 1
 
 WORKDIR /code
 
 COPY . .
 
-RUN pip install -r requirements.txt
